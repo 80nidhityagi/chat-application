@@ -9,7 +9,7 @@ import { useLocation } from 'react-router-dom';
 
 const Home = () => {
     let nav = useNavigate();
-    const url = 'http://localhost:3000';
+    const url = 'https://chat-application-wrb2.onrender.com';
 
     const location = useLocation();
     

@@ -10,7 +10,7 @@ import Login from "./Login";
 export default function Signup() {
     const nav = useNavigate();
     const [errorMessage,setErrorMessage] = useState('');
-    const url = 'http://localhost:3000';
+    const url = 'https://chat-application-wrb2.onrender.com';
 
     const formik = useFormik({
         initialValues: {

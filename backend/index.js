@@ -17,7 +17,7 @@ app.use(express.json()); // Parse JSON request bodies
 connection();
 
 // Enable CORS
-const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:5173';
+const CLIENT_URL = process.env.CLIENT_URL || 'https://chat-application-wrb2.onrender.com';
 app.use(cors({ origin: CLIENT_URL }));
 
 // Routes

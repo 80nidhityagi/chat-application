@@ -8,7 +8,7 @@ const Chat = () => {
   const chatWindowRef = useRef(null);
 
   const { sender_id, chat_id,name } = useParams();
-  const socket = useMemo(() => io('http://localhost:3000', {
+  const socket = useMemo(() => io('https://chat-application-wrb2.onrender.com', {
     transports: ['websocket'],
     reconnection: true,
   }), []);
@@ -52,7 +52,7 @@ const Chat = () => {
     const loadMessages = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/getmessages/${sender_id}/${chat_id}`
+          `https://chat-application-wrb2.onrender.com/getmessages/${sender_id}/${chat_id}`
         );
         if (response.data.success) {
           setMessages(response.data.data);
