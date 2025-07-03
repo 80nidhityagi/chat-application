@@ -8,7 +8,7 @@ const Profile = () => {
   const [email,setemail] = useState('');
   const [profile,setProfile] = useState('');
   const [tempProfile,setTempProfile] = useState('');
-  const url = 'https://chat-application-wrb2.onrender.com';
+  const url = 'https://chat-application-xf9j.onrender.com';
 
 
   useEffect(()=>{

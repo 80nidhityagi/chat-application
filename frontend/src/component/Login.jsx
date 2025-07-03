@@ -10,7 +10,7 @@ import ForgotPassword from "./ForgotPassword";
 
 export default function Login() {
   const navigate = useNavigate();
-  const url = 'https://chat-application-wrb2.onrender.com';
+  const url = 'https://chat-application-xf9j.onrender.com';
 
 
   useEffect(() => {

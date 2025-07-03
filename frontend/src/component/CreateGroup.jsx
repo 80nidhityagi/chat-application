@@ -9,7 +9,7 @@ const CreateGroup = ({ onGroupCreated }) => {
   const [users, setUsers] = useState([]);
   const [selectedUsers, setSelectedUsers] = useState([]);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const url = 'https://chat-application-wrb2.onrender.com';
+  const url = 'https://chat-application-xf9j.onrender.com';
 
   useEffect(() => {
     const fetchUsers = async () => {

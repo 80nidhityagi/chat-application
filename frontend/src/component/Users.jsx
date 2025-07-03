@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function Users() {
   const nav = useNavigate();
   let [user, setuser] = useState([]);
-  const url = 'https://chat-application-wrb2.onrender.com';
+  const url = 'https://chat-application-xf9j.onrender.com';
 
  async function getUserChat(id,name){
 

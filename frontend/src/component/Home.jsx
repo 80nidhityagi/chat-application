@@ -9,7 +9,7 @@ import { useLocation } from 'react-router-dom';
 
 const Home = () => {
     let nav = useNavigate();
-    const url = 'https://chat-application-wrb2.onrender.com';
+    const url = 'https://chat-application-xf9j.onrender.com';
 
     const location = useLocation();
     
