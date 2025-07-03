@@ -1,0 +1,99 @@
+.home-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Icons Section */
+.icon-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.profile-icon {
+    font-size: 50px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.view-all-icon {
+    font-size: 50px;
+    color: #28a745;
+    cursor: pointer;
+}
+
+.add-user-icon {
+    font-size: 50px;
+    color: #ffc107;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
+
+.search-icon {
+    margin-right: 10px;
+}
+
+.user-list {
+    margin-top: 10px;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.user-item:hover {
+    background-color: #ddd;
+}
+
+.user-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Right Dashboard */
+.right-dashboard {
+    width: 75%;
+    padding: 20px;
+    background-color: #fff;
+}
+.logout-btn {
+    background-color: transparent;
+    border: none;
+    color: #0a4b6f;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-btn svg {
+    margin-right: 8px; /* Space between the icon and text */
+    font-size: 20px;
+  }
